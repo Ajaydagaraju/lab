@@ -1,0 +1,171 @@
+
+const subjects = [
+  {
+    code: "000",
+    title: "General Works (0 - 100)",
+    description: "Computer science, information & general knowledge.",
+    bgImage: "/images/general.jpg",
+    books: [
+      { title: "Computer science, knowledge & systems", code: "000" },
+      { title: "Bibliographies", code: "010" },
+      { title: "Library & information sciences", code: "020" },
+      { title: "Encyclopedias & books of facts", code: "030" },
+      { title: "News media, journalism & publishing", code: "070" }
+    ]
+  },
+  {
+    code: "100",
+    title: "Philosophy & Psychology (101 - 200)",
+    description: "Philosophical thought and psychological studies.",
+    bgImage: "/images/philosophy.jpg",
+    books: [
+      { title: "Metaphysics", code: "110" },
+      { title: "Epistemology", code: "120" },
+      { title: "Parapsychology & occultism", code: "130" },
+      { title: "Philosophical schools of thought", code: "140" },
+      { title: "Psychology", code: "150" },
+      { title: "Logic", code: "160" },
+      { title: "Ethics", code: "170" },
+      { title: "Ancient, medieval & eastern philosophy", code: "180" },
+      { title: "Modern western philosophy", code: "190" }
+    ]
+  },
+  {
+    code: "200",
+    title: "Religion (201 - 300)",
+    description: "Religious beliefs and practices.",
+    bgImage: "/images/religion.jpg",
+    books: [
+      { title: "Philosophy & theory of religion", code: "210" },
+      { title: "The Bible", code: "220" },
+      { title: "Christianity & Christian theology", code: "230" },
+      { title: "Christian practice & observance", code: "240" },
+      { title: "Christian pastoral practice", code: "250" },
+      { title: "Christian organization & worship", code: "260" },
+      { title: "History of Christianity", code: "270" },
+      { title: "Christian denominations", code: "280" },
+      { title: "Other religions", code: "290" }
+    ]
+  },
+  {
+    code: "300",
+    title: "Social Sciences (301 - 400)",
+    description: "Society, economics, politics and law.",
+    bgImage: "/images/social.jpg",
+    books: [
+      { title: "Statistics", code: "310" },
+      { title: "Political science", code: "320" },
+      { title: "Economics", code: "330" },
+      { title: "Law", code: "340" },
+      { title: "Public administration", code: "350" },
+      { title: "Social problems & services", code: "360" },
+      { title: "Education", code: "370" },
+      { title: "Commerce & transport", code: "380" },
+      { title: "Customs & folklore", code: "390" }
+    ]
+  },
+  {
+    code: "400",
+    title: "Language",
+    description: "Linguistics and languages.",
+    bgImage: "/images/language.jpg",
+    books: [
+      { title: "Linguistics", code: "410" },
+      { title: "English & Old English", code: "420" },
+      { title: "German languages", code: "430" },
+      { title: "French languages", code: "440" },
+      { title: "Italian & Romanian", code: "450" },
+      { title: "Spanish & Portuguese", code: "460" },
+      { title: "Latin languages", code: "470" },
+      { title: "Greek languages", code: "480" },
+      { title: "Other languages", code: "490" }
+    ]
+  },
+  {
+    code: "500",
+    title: "Science",
+    description: "Math, physics, chemistry, biology.",
+    bgImage: "/images/science.jpg",
+    books: [
+      { title: "Mathematics", code: "510" },
+      { title: "Astronomy", code: "520" },
+      { title: "Physics", code: "530" },
+      { title: "Chemistry", code: "540" },
+      { title: "Earth sciences", code: "550" },
+      { title: "Fossils", code: "560" },
+      { title: "Biology", code: "570" },
+      { title: "Botany", code: "580" },
+      { title: "Zoology", code: "590" }
+    ]
+  },
+  {
+    code: "600",
+    title: "Technology",
+    description: "Applied sciences and technology.",
+    bgImage: "/images/technology.jpg",
+    books: [
+      { title: "Medicine", code: "610" },
+      { title: "Engineering", code: "620" },
+      { title: "Agriculture", code: "630" },
+      { title: "Home management", code: "640" },
+      { title: "Management", code: "650" },
+      { title: "Chemical engineering", code: "660" },
+      { title: "Manufacturing", code: "670" },
+      { title: "Industrial technology", code: "680" },
+      { title: "Construction", code: "690" }
+    ]
+  },
+  {
+    code: "700",
+    title: "Arts",
+    description: "Fine and decorative arts.",
+    bgImage: "/images/arts.jpg",
+    books: [
+      { title: "Landscaping", code: "710" },
+      { title: "Architecture", code: "720" },
+      { title: "Sculpture", code: "730" },
+      { title: "Drawing", code: "740" },
+      { title: "Painting", code: "750" },
+      { title: "Graphic arts", code: "760" },
+      { title: "Photography", code: "770" },
+      { title: "Music", code: "780" },
+      { title: "Sports & entertainment", code: "790" }
+    ]
+  },
+  {
+    code: "800",
+    title: "Literature",
+    description: "Literary works from around the world.",
+    bgImage: "/images/literature.jpg",
+    books: [
+      { title: "American literature", code: "810" },
+      { title: "English literature", code: "820" },
+      { title: "German literature", code: "830" },
+      { title: "French literature", code: "840" },
+      { title: "Italian literature", code: "850" },
+      { title: "Spanish literature", code: "860" },
+      { title: "Latin literature", code: "870" },
+      { title: "Greek literature", code: "880" },
+      { title: "Other literatures", code: "890" }
+    ]
+  },
+  {
+    code: "900",
+    title: "History & Geography",
+    description: "World history and travel.",
+    bgImage: "/images/history.jpg",
+    books: [
+      { title: "Geography & travel", code: "910" },
+      { title: "Biography", code: "920" },
+      { title: "Ancient history", code: "930" },
+      { title: "Europe", code: "940" },
+      { title: "Asia", code: "950" },
+      { title: "Africa", code: "960" },
+      { title: "North America", code: "970" },
+      { title: "South America", code: "980" },
+      { title: "Other regions", code: "990" }
+    ]
+  }
+];
+
+export default subjects;
