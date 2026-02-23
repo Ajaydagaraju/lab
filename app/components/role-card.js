@@ -94,11 +94,6 @@ export default function RoleCards() {
           </button>
         ))}
       </div>
-
-      {/* Footer */}
-      {/* <div className="mt-16 text-center text-sm text-gray-500">
-        © Department of Library and Information Science
-      </div> */}
     </section>
   );
 }

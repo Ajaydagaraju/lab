@@ -8,7 +8,7 @@ export default function BookCard({ book }) {
       whileHover={{ y: -6 }}
       className="rounded-2xl bg-white p-5 shadow-lg hover:shadow-2xl transition"
     >
-      <div className="h-32 flex flex-col rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 items-center justify-center text-white font-bold text-lg">
+      <div className="h-32 p-2 flex flex-col rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 items-center justify-center text-white font-bold text-lg">
         {book.title}
 
       <h3 className="mt-4 text-lg font-semibold text-gray-900">
