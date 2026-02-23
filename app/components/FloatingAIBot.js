@@ -21,7 +21,7 @@ export default function FloatingAIBot() {
           src="/images/bot.jpg"
           alt="AI Assistant"
           fill
-          className="object-contain"
+          className="object-contain rounded-full"
           priority
         />
       </div>
