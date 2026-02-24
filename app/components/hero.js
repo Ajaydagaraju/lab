@@ -7,11 +7,14 @@ export default function Hero() {
       <div className="absolute inset-0 " />
 
       <div className="relative max-w-5xl mx-auto px-6 pt-24 pb-32 text-center text-white">
-        
+        <div className="gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur mb-6 max-w-70 m-auto">
+          Central University of haryana
+        </div>
+
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur mb-6">
           <span className="text-yellow-300">🎓</span>
-          <span className="text-sm font-medium">Knowledge PathWay</span>
+          <span className="text-sm font-medium">Knowledge bridge</span>
         </div>
 
         {/* Heading */}
@@ -22,7 +25,8 @@ export default function Hero() {
 
         {/* Subheading */}
         <p className="mt-6 text-lg text-white/90 max-w-3xl mx-auto">
-          Explore 10 disciplines • 50+ subjects • 200+ topics with AI-powered learning assistance
+          Explore 10 disciplines • 50+ subjects • 200+ topics with AI-powered
+          learning assistance
         </p>
 
         {/* Search */}
@@ -52,10 +56,7 @@ export default function Hero() {
             { label: "Topics", value: "200+" },
             { label: "Learners", value: "2K+" },
           ].map((item, i) => (
-            <div
-              key={i}
-              className="bg-white/10 backdrop-blur rounded-xl py-6"
-            >
+            <div key={i} className="bg-white/10 backdrop-blur rounded-xl py-6">
               <div className="text-2xl font-bold">{item.value}</div>
               <div className="text-sm text-white/80">{item.label}</div>
             </div>

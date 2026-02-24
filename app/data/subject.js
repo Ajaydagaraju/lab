@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const subjects = [
   {
@@ -8,10 +9,14 @@ const subjects = [
     books: [
       { title: "Computer science, knowledge & systems", code: "000" },
       { title: "Bibliographies", code: "010" },
-      { title: "Library & information sciences", code: "020" },
+      {
+        title: "Library & information sciences",
+        code: "020",
+        route: "/library-information",
+      },
       { title: "Encyclopedias & books of facts", code: "030" },
-      { title: "News media, journalism & publishing", code: "070" }
-    ]
+      { title: "News media, journalism & publishing", code: "070" },
+    ],
   },
   {
     code: "100",
@@ -27,8 +32,8 @@ const subjects = [
       { title: "Logic", code: "160" },
       { title: "Ethics", code: "170" },
       { title: "Ancient, medieval & eastern philosophy", code: "180" },
-      { title: "Modern western philosophy", code: "190" }
-    ]
+      { title: "Modern western philosophy", code: "190" },
+    ],
   },
   {
     code: "200",
@@ -44,8 +49,8 @@ const subjects = [
       { title: "Christian organization & worship", code: "260" },
       { title: "History of Christianity", code: "270" },
       { title: "Christian denominations", code: "280" },
-      { title: "Other religions", code: "290" }
-    ]
+      { title: "Other religions", code: "290" },
+    ],
   },
   {
     code: "300",
@@ -61,8 +66,8 @@ const subjects = [
       { title: "Social problems & services", code: "360" },
       { title: "Education", code: "370" },
       { title: "Commerce & transport", code: "380" },
-      { title: "Customs & folklore", code: "390" }
-    ]
+      { title: "Customs & folklore", code: "390" },
+    ],
   },
   {
     code: "400",
@@ -78,8 +83,8 @@ const subjects = [
       { title: "Spanish & Portuguese", code: "460" },
       { title: "Latin languages", code: "470" },
       { title: "Greek languages", code: "480" },
-      { title: "Other languages", code: "490" }
-    ]
+      { title: "Other languages", code: "490" },
+    ],
   },
   {
     code: "500",
@@ -95,8 +100,8 @@ const subjects = [
       { title: "Fossils", code: "560" },
       { title: "Biology", code: "570" },
       { title: "Botany", code: "580" },
-      { title: "Zoology", code: "590" }
-    ]
+      { title: "Zoology", code: "590" },
+    ],
   },
   {
     code: "600",
@@ -112,8 +117,8 @@ const subjects = [
       { title: "Chemical engineering", code: "660" },
       { title: "Manufacturing", code: "670" },
       { title: "Industrial technology", code: "680" },
-      { title: "Construction", code: "690" }
-    ]
+      { title: "Construction", code: "690" },
+    ],
   },
   {
     code: "700",
@@ -129,8 +134,8 @@ const subjects = [
       { title: "Graphic arts", code: "760" },
       { title: "Photography", code: "770" },
       { title: "Music", code: "780" },
-      { title: "Sports & entertainment", code: "790" }
-    ]
+      { title: "Sports & entertainment", code: "790" },
+    ],
   },
   {
     code: "800",
@@ -146,8 +151,8 @@ const subjects = [
       { title: "Spanish literature", code: "860" },
       { title: "Latin literature", code: "870" },
       { title: "Greek literature", code: "880" },
-      { title: "Other literatures", code: "890" }
-    ]
+      { title: "Other literatures", code: "890" },
+    ],
   },
   {
     code: "900",
@@ -163,9 +168,9 @@ const subjects = [
       { title: "Africa", code: "960" },
       { title: "North America", code: "970" },
       { title: "South America", code: "980" },
-      { title: "Other regions", code: "990" }
-    ]
-  }
+      { title: "Other regions", code: "990" },
+    ],
+  },
 ];
 
 export default subjects;

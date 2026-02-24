@@ -18,7 +18,7 @@ export default function SubjectPage( ) {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600">
+    <main className="min-h-screen bg-slate-400">
       <div className="max-w-7xl mx-auto px-6 py-14">
         {/* Header */}
         <h1 className="text-4xl font-bold text-white">

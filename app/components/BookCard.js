@@ -17,7 +17,7 @@ export default function BookCard({ book }) {
       </div>
 
       <button className="mt-4 w-full rounded-lg bg-indigo-600 py-2 text-white font-medium hover:bg-indigo-700 transition">
-        View Book
+        View
       </button>
     </motion.div>
   );
