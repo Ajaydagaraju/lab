@@ -8,7 +8,8 @@ import SubjectGrid from "./components/SubjectGrid";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 opacity-95">
+    // <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 opacity-95">
+    <div className="bg-slate-400">
       <Hero />
       <RoleCards />
       <main className=" text-black p-6 " >
