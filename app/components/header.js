@@ -14,7 +14,7 @@ export default function Header() {
             🎓
           </div>
           <span className="text-lg font-semibold text-gray-800">
-            Knowledge bridge
+            Knowledge path way
           </span>
         </div>
         </Link>

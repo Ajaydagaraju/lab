@@ -13,8 +13,8 @@ export default function EntertainmentPage() {
   const router = useRouter();
 
   return (
-    <div className="bg-blue-100 min-h-screen">
-    <div className="max-w-6xl mx-auto py-16 px-6">
+     <main className="min-h-screen bg-slate-400">
+      <div className="max-w-7xl mx-auto px-6 py-14">
       <h1 className="text-4xl font-bold text-black mb-10">Entertainment</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -30,6 +30,6 @@ export default function EntertainmentPage() {
         ))}
       </div>
     </div>
-    </div>
+    </main>
   );
 }

@@ -53,7 +53,8 @@ export default function CategoryPage() {
   if (!data) return <div className="text-white p-10">No Data Found</div>;
 
   return (
-    <div className="min-h-screen bg-blue-100 text-white px-8 py-16">
+     <main className="min-h-screen bg-slate-400">
+      <div className="max-w-7xl mx-auto px-6 py-14">
       {/* Heading */}
       <h1 className="text-4xl font-bold mb-12 flex items-center gap-4">
         <span className="text-indigo-400 text-3xl">{data.icon}</span>
@@ -87,5 +88,6 @@ export default function CategoryPage() {
         ))}
       </div>
     </div>
+    </main>
   );
 }

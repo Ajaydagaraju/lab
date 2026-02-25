@@ -14,7 +14,7 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur mb-6">
           <span className="text-yellow-300">🎓</span>
-          <span className="text-sm font-medium">Knowledge bridge</span>
+          <span className="text-sm font-medium">Knowledge path way</span>
         </div>
 
         {/* Heading */}

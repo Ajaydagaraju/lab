@@ -16,7 +16,7 @@ export default function FloatingAIBot() {
       className="fixed bottom-6 right-6 z-50 cursor-pointer rounded-full"
       onClick={() => alert("AI Assistant coming soon 🚀")}
     >
-      <div className="relative w-12 h-16 sm:w-20 sm:h-20 rounded-full shadow-2xl bg-white p-2">
+      <div className="relative w-12 h-12 sm:w-20 sm:h-20 rounded-full shadow-2xl bg-white p-2">
         <Image
           src="/images/bot.jpg"
           alt="AI Assistant"
