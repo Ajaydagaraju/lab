@@ -104,18 +104,28 @@ export default function FloatingAIBot() {
                 </div>
               )}
               <div className="space-y-1">
-                {(currentNode ? currentNode.options : qaTree).map((opt, idx) => (
-                  <button
-                    key={idx}
-                    className="w-full text-left text-sm py-1 px-2 bg-blue-50 hover:bg-blue-100 rounded"
-                    onClick={() => {
-                      setHistory((h) => [...h, currentNode]);
-                      setCurrentNode(opt);
-                    }}
-                  >
-                    {opt.question}
-                  </button>
-                ))}
+                {(currentNode ? currentNode.options : qaTree).map((opt, idx) => {
+                  const handleClick = () => {
+                    if (opt.isLink) {
+                      const urlMatch = opt.answer.match(/(https?:\/\/[^\s]+)/);
+                      if (urlMatch) {
+                        window.open(urlMatch[1], "_blank");
+                      }
+                      return;
+                    }
+                    setHistory((h) => [...h, currentNode]);
+                    setCurrentNode(opt);
+                  };
+                  return (
+                    <button
+                      key={idx}
+                      className="w-full text-left text-sm py-1 px-2 bg-blue-50 hover:bg-blue-100 rounded"
+                      onClick={handleClick}
+                    >
+                      {opt.question}
+                    </button>
+                  );
+                })}
               </div>
               {history.length > 0 && (
                 <button

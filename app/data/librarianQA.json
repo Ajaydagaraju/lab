@@ -35,5 +35,11 @@
     "question": "Are there any entrance exams?",
     "answer": "Yes, admission is based on a national level entrance test conducted by the university.",
     "options": []
+  },
+  {
+    "question": "Chat with Google Gemini directly",
+    "answer": "Open Google Gemini for more detailed conversations: https://gemini.google.com",
+    "options": [],
+    "isLink": true
   }
 ]
