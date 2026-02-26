@@ -3,7 +3,7 @@ import Link from "next/link";
 const subjects = [
   {
     code: "000",
-    title: "General Works (0 - 100)",
+    title: "General Works (0 - 99)",
     description: "Computer science, information & general knowledge.",
     bgImage: "/images/general.jpg",
     books: [
@@ -20,7 +20,7 @@ const subjects = [
   },
   {
     code: "100",
-    title: "Philosophy & Psychology (101 - 200)",
+    title: "Philosophy & Psychology (100 - 199)",
     description: "Philosophical thought and psychological studies.",
     bgImage: "/images/philosophy.jpg",
     books: [
@@ -37,7 +37,7 @@ const subjects = [
   },
   {
     code: "200",
-    title: "Religion (201 - 300)",
+    title: "Religion (200 - 299)",
     description: "Religious beliefs and practices.",
     bgImage: "/images/religion.jpg",
     books: [
@@ -54,7 +54,7 @@ const subjects = [
   },
   {
     code: "300",
-    title: "Social Sciences (301 - 400)",
+    title: "Social Sciences (300 - 399)",
     description: "Society, economics, politics and law.",
     bgImage: "/images/social.jpg",
     books: [
@@ -71,7 +71,7 @@ const subjects = [
   },
   {
     code: "400",
-    title: "Language",
+    title: "Language (400 - 499)",
     description: "Linguistics and languages.",
     bgImage: "/images/language.jpg",
     books: [
@@ -88,7 +88,7 @@ const subjects = [
   },
   {
     code: "500",
-    title: "Science",
+    title: "Sciencek (500 - 599)",
     description: "Math, physics, chemistry, biology.",
     bgImage: "/images/science.jpg",
     books: [
@@ -105,7 +105,7 @@ const subjects = [
   },
   {
     code: "600",
-    title: "Technology",
+    title: "Technology (600 - 699)",
     description: "Applied sciences and technology.",
     bgImage: "/images/technology.jpg",
     books: [
@@ -122,7 +122,7 @@ const subjects = [
   },
   {
     code: "700",
-    title: "Arts",
+    title: "Arts (700 - 799)",
     description: "Fine and decorative arts.",
     bgImage: "/images/arts.jpg",
     books: [
@@ -139,7 +139,7 @@ const subjects = [
   },
   {
     code: "800",
-    title: "Literature",
+    title: "Literature (800 - 899)",
     description: "Literary works from around the world.",
     bgImage: "/images/literature.jpg",
     books: [
@@ -156,7 +156,7 @@ const subjects = [
   },
   {
     code: "900",
-    title: "History & Geography",
+    title: "History & Geography (900 - 999)",
     description: "World history and travel.",
     bgImage: "/images/history.jpg",
     books: [

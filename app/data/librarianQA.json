@@ -1,0 +1,39 @@
+[
+  {
+    "question": "What is the duration of the Master of Library Science program?",
+    "answer": "The Master of Library Science (MLib) program is typically a two-year full-time course.",
+    "options": [
+      {
+        "question": "What is the eligibility criteria?",
+        "answer": "Candidates must have a Bachelor's degree in any discipline with at least 50% marks.",
+        "options": [
+          {
+            "question": "How to apply?",
+            "answer": "Applications are accepted through the central university's admission portal.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "question": "What subjects are covered?",
+        "answer": "Core subjects include Cataloguing, Classification, Information Technology in Libraries, and Research Methodology.",
+        "options": []
+      }
+    ]
+  },
+  {
+    "question": "What are the career opportunities after graduation?",
+    "answer": "Graduates can work as librarians, information analysts, archivists, or pursue a PhD in Library Science.",
+    "options": []
+  },
+  {
+    "question": "How many semesters are there?",
+    "answer": "The program is usually divided into four semesters over two years.",
+    "options": []
+  },
+  {
+    "question": "Are there any entrance exams?",
+    "answer": "Yes, admission is based on a national level entrance test conducted by the university.",
+    "options": []
+  }
+]
